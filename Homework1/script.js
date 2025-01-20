@@ -9,7 +9,7 @@ function fetchUsers() {
     .then(function (parsedResult) {
       fetchResult.style.display = "block";
       fetchResult.innerHTML = "";
-      console.log(parsedResult);
+
       for (const user of parsedResult) {
         fetchResult.innerHTML += `
               <p><strong>Name:</strong> ${user.name}</p>
