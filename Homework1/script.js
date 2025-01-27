@@ -27,6 +27,5 @@ function fetchUsers() {
 }
 
 fetchBtn.addEventListener("click", function () {
-  fetchResult.innerHTML = "";
   fetchUsers();
 });
