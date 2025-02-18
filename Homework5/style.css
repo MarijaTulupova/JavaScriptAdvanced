@@ -1,0 +1,98 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  margin: 20px;
+}
+
+form {
+  max-width: 400px;
+  margin: 20px auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+form input,
+form button {
+  display: block;
+  width: calc(100% - 20px);
+  margin: 10px auto;
+  padding: 10px;
+}
+
+form button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+form button:hover {
+  background-color: #0056b3;
+}
+
+.message {
+  display: none;
+  margin-top: 20px;
+  font-size: 1.2em;
+  position: fixed;
+  top: 0;
+  right: 0;
+  margin-right: 20px;
+  border: 1px solid black;
+  padding: 20px;
+  background-color: white;
+  border-radius: 10px;
+}
+
+.error {
+  color: red;
+  border-color: red;
+}
+
+.success {
+  color: green;
+  border-color: green;
+}
+
+#logout-btn {
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: #dc3545;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#logout-btn:hover {
+  background-color: #a71d2a;
+}
+
+#register-form {
+  display: none;
+}
+
+#main {
+  display: none;
+}
+
+#backBtn {
+  max-width: 380px;
+  width: 100%;
+  margin: 10px auto;
+  padding: 10px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  display: none;
+  text-align: center;
+}
+
+#backBtn:hover {
+  background-color: #0056b3;
+}

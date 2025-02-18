@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Login Flow</title>
+  </head>
+  <body>
+    <h1>Login System Simulator</h1>
+
+    <form id="login-form">
+      <h2>Login</h2>
+      <input type="email" placeholder="Email" id="login-email" />
+      <input type="password" placeholder="Password" id="login-password" />
+      <button>Login</button>
+      <button type="button" id="register-link">
+        Don't have an account? Register here
+      </button>
+    </form>
+
+    <form id="register-form">
+      <h2>Register</h2>
+      <input type="text" placeholder="First Name" id="register-firstname" />
+      <input type="text" placeholder="Last Name" id="register-lastname" />
+      <input type="email" placeholder="Email" id="register-email" />
+      <input type="password" placeholder="Password" id="register-password" />
+      <button>Register</button>
+      <button type="button" id="backBtn">
+        Already have an account? Login here
+      </button>
+    </form>
+    <main id="main">
+      <button id="logout-btn">Logout</button>
+      <h2>Welcome to our web application</h2>
+    </main>
+
+    <div class="message" id="message"></div>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
